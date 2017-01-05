@@ -14,9 +14,15 @@ development web server:
 -----------------------
 webpack and express
 
-automation:
------------
+automation / build process:
+---------------------------
 grunt, gulp and npm sripts
+npm scripts is the best choice:
+no extra layer of plugins like gulp and grunt
+no need for seperate plugins
+simpler debugging
+just use the tools directly
+
 
 git Commands:
 -------------
