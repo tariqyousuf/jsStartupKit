@@ -28,6 +28,14 @@ Transpiling:
 Babel, TypeScript and Elm
 Babel: plain javascript so compatability with other js based frameworks is very high
 
+Bundlers:
+---------
+Browseify
+webpack
+rollup
+jspm
+
+
 
 git Commands:
 -------------
