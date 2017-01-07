@@ -35,7 +35,12 @@ webpack
 rollup
 jspm
 
-
+Linter:
+-------
+jsline,
+jshint,
+eslint this one we are using
+eslint watch npm package
 
 git Commands:
 -------------
