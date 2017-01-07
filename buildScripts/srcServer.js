@@ -1,7 +1,7 @@
 import express from 'express';
 import  path from 'path';
 import  open from 'open';
-import webpac from 'webpack';
+import webpack from 'webpack';
 import config from '../webpack.config.dev'
 
 const port = 3000;
