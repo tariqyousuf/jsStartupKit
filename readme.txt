@@ -42,6 +42,42 @@ jshint,
 eslint this one we are using
 eslint watch npm package
 
+automated unit testing:
+-----------------------
+
+AUT: testing framework:
+-----------------------
+Mocha, jasmine, tape, qunit, AVA, jest(a nice wrapper over jasmine)
+
+AUT: Assertion library:
+-----------------------
+chai,
+
+AUT:Helperlibrary:
+------------------
+jsDom:runs test without a browser
+chereio
+
+AUT:Where to run our tests:
+-----------------------------
+browser,
+HeadlessBrowser - phantomJS
+or in memory DOM like JSDPM
+both above options are good to go
+
+AUT:Where to put my test files:
+-------------------------------
+centralized: all tests in one folder called tests
+Alongside: with the actual source code, this is what we will b following
+
+AUT: when shall we run our tests:
+---------------------------------
+Unit tests: should run as soon as you save, increases test visibility
+automatic = low friction
+
+
+
+
 git Commands:
 -------------
 stage all changes: git add .
