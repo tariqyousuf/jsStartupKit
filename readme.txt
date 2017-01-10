@@ -75,7 +75,9 @@ AUT: when shall we run our tests:
 Unit tests: should run as soon as you save, increases test visibility
 automatic = low friction
 
-
+Continous Integration Server:
+-----------------------------
+Travis and Appveyor
 
 
 git Commands:
