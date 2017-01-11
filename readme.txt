@@ -79,6 +79,17 @@ Continous Integration Server:
 -----------------------------
 Travis and Appveyor
 
+Http calls and mocking the Http calls:
+--------------------------------------
+In node: http, request (use this if you are only working on node)
+In Browser: XmlHttpRequest, JQuery, Framework based - like angular has got its service, Fetch (use this if you are only working with browser)
+Node & Browser: isomorphic-fetch : works on both node and browser,xhr, super agent, Axios (any of these listed technologies can be used)
+
+*Centralized API calls:
+configure all calls in a single spot
+Handler preloader logic again in one place
+Handle errors
+Single seam for mocking
 
 git Commands:
 -------------
