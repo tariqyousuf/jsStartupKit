@@ -129,3 +129,7 @@ stage all changes: git add .
 commit all changes to local branch: git commit -m "comments"
 push all changes from local branch to server: git push
 git status
+
+reactJS template project:
+-------------------------
+https://github.com/coryhouse/react-slingshot#initial-machine-setup 
