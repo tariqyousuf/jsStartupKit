@@ -91,6 +91,38 @@ Handler preloader logic again in one place
 Handle errors
 Single seam for mocking
 
+Pollyfill.io can be used to send polyfill only to the required browsers and not to every one
+
+Why mocking API:
+----------------
+1. can do unit testing with it
+2.keep working even when the service is down
+3. rapid prototying of the services
+4. avoid inter team bottlenects:just need to have contract for the werb services
+5. work offline
+
+How to Mock Http:
+----------------
+Nock:
+static Json
+create development web-servers like api-mock or Json server (that's what he is using) or Json schema faker, Browser sync or Express
+
+Plan in this project for Mock API:
+----------------------------------
+3 step process:
+
+step1:
+Declare our shcema using Json Schema faker
+
+step2:
+Generting random data
+multiple choices are faker, chance, randexp.js
+
+step3:
+Server Data via API
+Json Server
+
+
 git Commands:
 -------------
 stage all changes: git add .
