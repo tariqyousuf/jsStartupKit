@@ -122,6 +122,9 @@ step3:
 Server Data via API
 Json Server
 
+Minification:
+-------------
+using uglify through webpack
 
 git Commands:
 -------------
@@ -133,3 +136,23 @@ git status
 reactJS template project:
 -------------------------
 https://github.com/coryhouse/react-slingshot#initial-machine-setup 
+
+
+production build:
+----------------- 
+minification and other stuff using webpack but i totally missed that
+
+production deploy:
+------------------
+Keep ui and apis(means server side apis) as seperte project
+Heroku: for hosting the apis
+Surge: for hosting the ui
+
+How to keep the template/startup kit updated:
+---------------------------------------------
+YEOMAN: you can keep your startup kit on yeoman that creates project templates or scaffolding - so you can update your youman template from github
+or GitHub and fork
+or using an npm package
+
+Note:
+completed code till start of production build - the second last chapter
