@@ -2,7 +2,7 @@ jsStartupKit:
 =============
 
 Editor:
--------
+---------
 vsCode
 .editorconfig and put it in root of your project
 
